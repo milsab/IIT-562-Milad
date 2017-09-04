@@ -1,0 +1,34 @@
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.right{
+	float: right;
+	width: 50%;
+}
+
+footer {
+	clear: both;
+}
+
+.fleft{
+	float: left;
+	width: 50%;
+}
+
+.fright{
+	float: right;
+	width: 50%;	
+}
+
+.fright ul {
+	margin: 5px 20px;
+}
+
+.mfooter{
+	background-color: yellow;
+	height: 50%;
+	width: 100%;
+}
