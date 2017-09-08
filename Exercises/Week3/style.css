@@ -2,3 +2,62 @@
 	margin: 0;
 	padding: 0;
 }
+
+body{
+	width: 855px;
+	margin: auto;
+	background-color: #DEEC8D;
+	font-family: sans-serif;
+}
+
+header h1{
+	width: 285px;
+	float: left;
+}
+header p{
+	width: 570px;
+	float: right;
+	margin: auto;
+}
+
+
+header hr{
+	clear: both;
+}
+
+.comment-input{
+	width: 285px;
+	float: left;
+}
+
+.comment-input button{
+	background-color: #57EA57;
+	border-radius: 5px;
+	width: 20px;
+	height: 20px;
+}
+
+.comments{
+	width: 570px;
+	float: right;
+}
+
+.comments p{
+	margin: 5px;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+
+.comments p:nth-child(even){
+	background-color: lavender;
+}
+
+.comments p:nth-child(odd){
+	background-color: gainsboro;
+}
+
+
+
+footer{
+	clear: both;
+}
