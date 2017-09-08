@@ -29,6 +29,7 @@ footer {
 
 .mfooter{
 	background-color: yellow;
-	height: 50%;
+	/*height: 50%;*/
 	width: 100%;
+	overflow: auto;
 }
