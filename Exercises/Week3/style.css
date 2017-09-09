@@ -30,6 +30,10 @@ header hr{
 	float: left;
 }
 
+.comment-input button:hover{
+	cursor: pointer;
+}
+
 .comment-input button{
 	background-color: #57EA57;
 	border-radius: 5px;
