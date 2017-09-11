@@ -1,0 +1,42 @@
+body{
+    /* background-color: rosybrown; */
+    font-family: sans-serif;
+    width: 855px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.data-range p{
+    font-style: italic;
+}
+
+.data-range input{
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.result{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgba(0, 197, 247, 0.78);
+}
+
+.result p{
+    margin:2px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 3px auto;
+}
+
+.result p:nth-child(odd){
+    background-color:#637B17;
+}
+
+.result p:nth-child(even){
+    background-color: #EDCC7D;
+}
