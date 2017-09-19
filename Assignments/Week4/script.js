@@ -5,17 +5,12 @@ $('document').ready(function(){
 });
 
 function main(hand){
-    var ranks = ["two","three","four","five","six","seven","eight",
-                 "nine","ten","jack","queen","king","ace"];
-    var suit = ['hearts', 'diamonds', 'clubs', 'spades'];
-
-
+    
     var handRank = getRanks(hand);
     var handSuit = getSuits(hand);  
 
     var rankCounts = findNumOfElements(handRank);
     
-
     var counts = rankCounts.map(function(element){
         return element.count;
     });
