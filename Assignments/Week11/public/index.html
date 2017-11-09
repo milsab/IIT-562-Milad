@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+    <title>Reminder App</title>
+</head>
+<body>
+    <header>
+        <h1>Reminder Application</h1>
+        <h1>ITMD 562 - Milad Sabouri - Assignment 7</h1>
+        <hr>  
+    </header>
+    <main>
+        <section id="user">
+            <div class="control">
+                <h2>List of Users</h2>
+                <button id="btnAddUser" class="btn btn-info">Add User</button>
+            </div>
+            <div id="userForm"></div>
+            <div id="userList" class="container list">
+                
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <td>Name</td>
+                        <td>Email</td>
+                    </thead>
+                    <tbody id="user-body"></tbody>
+                </table>
+            </div>
+        </section>
+        <section id="reminder">
+            <div class="control">
+                <h2 id="userid">List of Reminders</h2>
+                <button id="btnAddReminder" class="btn btn-info">Add Reminder</button>
+                <button id="btnDeleteReminder" class="btn btn-warning">Delete All Reminders</button>
+                <button id="btnDelUser" class="btn btn-danger">Delete Selected User</button>
+            </div>
+            <div id="reminderForm"></div>
+            <div id="reminderList" class="list">
+                
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <td>Reminder Id</td>
+                        <td>Title</td>
+                        <td>Description</td>
+                        <td>Created Time</td>
+                    </thead>
+                    <tbody id="reminder-body"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Illinos Thech - Milad Sabouri - Fall 2017</p>
+    </footer>
+</body>
+</html>

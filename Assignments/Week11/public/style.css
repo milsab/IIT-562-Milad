@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    
+}
+header > h1{
+    padding:0;
+    margin: 10px 0;
+    font-family: 'Russo One', sans-serif;
+}
+header > h1:nth-child(1){
+    float: left;
+    padding-left: 10px;
+}
+
+header > h1:nth-child(2){
+    float: right;
+    padding-right: 10px;
+    color: yellow;
+}
+
+header > hr{
+    clear: both;
+    margin:0;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#user, #reminder{
+    background-color: white;
+    border-radius: 5px;
+}
+#user{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+#reminder{
+    float: right;
+    margin-right: 10px;
+    width: 70%;
+    padding: 20px;
+}
+
+#reminderForm{
+    display: none;
+}
+
+thead{
+    font-weight: bold;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+#userForm{
+    display: none;
+}
+
+button{
+    margin: 10px 5px 10px 0px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    /* font-family: 'Russo One', sans-serif; */
+}
+footer > hr{
+    clear: both;
+}
